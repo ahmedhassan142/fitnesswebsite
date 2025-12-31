@@ -134,7 +134,7 @@ export default function ThankYouPage() {
                     <div className="text-sm text-gray-500">Fitness Goal</div>
                     <div className="font-medium text-gray-900">
                       {
-                      application.fitnessGoal.replace('_', ' ').replace(/\b\w/g, (l:any)=> l.toUpperCase()) )}
+                      application.fitnessGoal.replace('_', ' ').replace(/\b\w/g, (l:any)=> l.toUpperCase()) }
                     </div>
                   </div>
                 </div>

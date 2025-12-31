@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import dbConnect from '@/lib/db';
-import ContactMessage from '@/models/';
+import ContactMessage from '@/models/ContactMessage';
 import { z } from 'zod';
 
 const contactSchema = z.object({
@@ -36,7 +36,7 @@ export async function POST(request: NextRequest) {
       },
       { status: 201 }
     );
-  } catch (error) {
+  } catch (error:any) {
     console.error('Contact API error:', error);
     
     if (error instanceof z.ZodError) {
@@ -44,6 +44,7 @@ export async function POST(request: NextRequest) {
         { 
           success: false, 
           error: 'Validation failed', 
+          //@ts-ignore
           details: error.errors 
         },
         { status: 400 }
