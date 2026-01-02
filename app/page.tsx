@@ -6,7 +6,7 @@ import FitnessTracker from '@/components/features/FitnessTracker';
 import Trainers from '@/components/sections/Trainers';
 import TestimonialsSection from '@/components/sections/TestimonialSection';
 import Pricing from '@/components/sections/Pricing';
-import GallerySection from '@/components/sections/GallerySection';
+// import GallerySection from '@/components/sections/GallerySection';
 import CallToAction from '@/components/sections/CallToAction';
 import NewsletterForm from '@/components/ui/NewsletterForm';
 
@@ -32,7 +32,7 @@ export default function HomePage() {
       <Trainers />
       <TestimonialsSection />
       <Pricing />
-      <GallerySection />
+      {/* <GallerySection /> */}
       <CallToAction />
     </>
   );

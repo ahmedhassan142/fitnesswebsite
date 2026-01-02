@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import dbConnect from '@/lib/db';
-import Booking from '@/models/Booking';
+import Booking from '@/models/booking';
 import Class from '@/models/Class';
 
 export async function GET(

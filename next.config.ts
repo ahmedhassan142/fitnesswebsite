@@ -6,8 +6,8 @@ const nextConfig = {
   },
   
   // Remove problematic webpack config
-  //@ts-ignore
-  webpack: (config:any, { isServer }) => {
+  // @ts-ignore
+  webpack: (config, { isServer }) => {
     // Keep only essential config
     if (isServer) {
       config.externals.push({

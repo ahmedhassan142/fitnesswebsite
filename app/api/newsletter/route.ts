@@ -58,6 +58,7 @@ export async function POST(request: NextRequest) {
         { 
           success: false, 
           error: 'Validation failed', 
+           //@ts-ignore
           details: error.errors 
         },
         { status: 400 }

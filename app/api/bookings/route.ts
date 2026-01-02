@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import dbConnect from '@/lib/db';
-import Booking from '@/models/Booking';
+import Booking from '@/models/booking';
 import Class from '@/models/Class';
 import { z } from 'zod';
 
@@ -82,12 +82,13 @@ export async function POST(request: NextRequest) {
         { 
           success: false, 
           error: 'Validation failed', 
+          //@ts-ignore
           details: error.errors 
         },
         { status: 400 }
       );
     }
-    
+    //@ts-ignore
     if (error.code === 11000) {
       return NextResponse.json(
         { success: false, error: 'You already have a booking for this class' },

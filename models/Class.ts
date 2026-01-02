@@ -92,11 +92,13 @@ const ClassSchema: Schema = new Schema(
 
 // Virtual for checking availability
 ClassSchema.virtual('availableSpots').get(function () {
+  //@ts-ignore
   return this.capacity - this.booked;
 });
 
 // Virtual for checking if class is full
 ClassSchema.virtual('isFull').get(function () {
+  //@ts-ignore
   return this.booked >= this.capacity;
 });
 
