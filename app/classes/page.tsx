@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Clock, Users, Target, Filter } from 'lucide-react';
 import Image from 'next/image';

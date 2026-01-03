@@ -2,8 +2,8 @@
 
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Calendar, Target, TrendingUp, Award, Clock, Heart, Dumbbell, Users } from 'lucide-react';
-import UserDashboard from '@/components/dashboard/UserDashboard';
+import {  Target,  Clock, Heart, Dumbbell } from 'lucide-react';
+import UserDashboard from '../../components/dashboard/UserDashboard';
 
 export default function DashboardPage() {
   const [activeTab, setActiveTab] = useState('overview');

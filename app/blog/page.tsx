@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Calendar, User, Clock, Tag, ChevronRight, BookOpen, TrendingUp, Apple } from 'lucide-react';
 
