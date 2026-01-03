@@ -1,14 +1,14 @@
-import Hero from '@/components/sections/Hero';
+import Hero from '../components/sections/Hero';
 // import Features from '@/components/sections/Features';
-import Stats from '@/components/sections/Stats';
-import ClassSchedule from '@/components/sections/ClassSchedule';
-import FitnessTracker from '@/components/features/FitnessTracker';
-import Trainers from '@/components/sections/Trainers';
-import TestimonialsSection from '@/components/sections/TestimonialSection';
-import Pricing from '@/components/sections/Pricing';
+import Stats from '../components/sections/Stats';
+import ClassSchedule from '../components/sections/ClassSchedule';
+import FitnessTracker from '../components/features/FitnessTracker';
+import Trainers from '../components/sections/Trainers';
+import TestimonialsSection from '../components/sections/TestimonialSection';
+import Pricing from '../components/sections/Pricing';
 // import GallerySection from '@/components/sections/GallerySection';
-import CallToAction from '@/components/sections/CallToAction';
-import NewsletterForm from '@/components/ui/NewsletterForm';
+import CallToAction from '../components/sections/CallToAction';
+import NewsletterForm from '../components/ui/NewsletterForm';
 
 export default function HomePage() {
   return (

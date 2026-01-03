@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Star, Quote, Award, TrendingUp, Target, Heart } from 'lucide-react';
 

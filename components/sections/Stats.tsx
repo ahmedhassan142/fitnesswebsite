@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import { Users, Trophy, Calendar, Heart } from 'lucide-react';
 import CountUp from 'react-countup';

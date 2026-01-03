@@ -1,6 +1,6 @@
 
 "use client"
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Award, Target, Instagram, Facebook, Twitter, Mail, Star } from 'lucide-react';
 import Image from 'next/image';
